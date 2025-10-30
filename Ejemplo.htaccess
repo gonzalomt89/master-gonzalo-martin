@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^localhost:8888
+RewriteRule ^(.*)$ http://gonzalo-martin.localhost:8888$1 [R=301,L]
